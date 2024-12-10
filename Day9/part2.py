@@ -19,8 +19,6 @@ def defragDiskArray(diskArray):
                     
                     #print(''.join(diskArray))
 
-
-
             endIndex = tailIndex
             currentFileIndex = diskArray[endIndex]
 
@@ -70,9 +68,5 @@ for char in list(line):
 print(''.join(diskArray))
 
 defragDiskArray(diskArray)
-
-#while defragDiskArray(diskArray):
-#    print(''.join(diskArray))
-#    continue
 
 print("Checksum: " + str(checkSum(diskArray)))
